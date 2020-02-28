@@ -1,0 +1,10 @@
+For it to work on linux, you would need to do the following steps:
+
+
+To download the library for libssl and crypto:
+sudo apt-get install libssl-dev 
+
+To compile the file:
+gcc -Wall -o client client.c -lssl -lcrypto
+
+Also to check if openssl is installed.
